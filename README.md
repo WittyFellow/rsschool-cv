@@ -1,1 +1,1 @@
-https://wittyfellow.github.io/rsschool-cv/
+https://wittyfellow.github.io/rsschool-cv/cv
