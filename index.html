@@ -43,18 +43,18 @@
         <img class="avatar" src="img/avatar.jpg" alt="avatar" />
       </div>
     </header>
-    <hr>
+    <hr />
     <main>
-      <section>
+      <article>
         <h2>About me:</h2>
-        <p class="def-width">
+        <p class="def-padd">
           I finished Polotsk State University, and got diploma in engineering.
           In my spare time I read a lot, watch different videos, coding and
           learn English to improve my skills and knowledge. Unfortunatly I have
           got no commercial coding experience, but I hope to learn more during
           Your courses.
         </p>
-      </section>
+      </article>
 
       <section class="summary">
         <h2>Summary:</h2>
@@ -69,38 +69,28 @@
         </div>
         <div class="example">
           <h3>Code example:</h3>
-          <pre>
-<code>function decrypt(text, n) {
-  if (n <= 0) {
-    return text;
-  } else {
-    let newArr = text.split('').splice(0, text.length / 2);
-    let newArr2 = text.split('').splice(text.length / 2);
-    let result = [];
-    for (let i = 0; i < newArr1.length; i++) {
-      result.push(newArr2[i] + newArr[i]);
-      console.log(result);
-    }
-    if (newArr.length < newArr2.length) {
-      result.push(newArr2[newArr2.length - 1]);
-    }
-    return decrypt(result.join(''), n - 1);
-}</code>
-          </pre>
+          <div>
+            <img src="img/github-logo.svg" alt="github-logo">
+            <a href="https://github.com/WittyFellow">github.com</a>
+          </div>
+          <div>
+            <img src="img/codewars_logo_icon_145389.svg" alt="codewars-logo" />
+            <a href="https://www.codewars.com/users/WittyFellow">codewars.com</a>
+          </div>
         </div>
       </section>
 
       <section class="graduation">
         <h2>Graduation:</h2>
-        <p class="def-width">Polotsk State University 2013 - 2018</p>
+        <p class="def-padd">Polotsk State University 2013 - 2018</p>
       </section>
 
       <section class="english">
         <h2>English level:</h2>
-        <p class="def-width">A2 Pre-Intermediate</p>
+        <p class="def-padd">A2 Pre-Intermediate</p>
       </section>
     </main>
-    <hr>
+    <hr />
     <footer>
       <div class="rsschool-logo">
         <a href="https://rs.school/js/">

@@ -86,7 +86,8 @@ main {
   padding: 20px;
 }
 
-main section {
+main section,
+main article {
   margin-bottom: 25px;
 }
 
@@ -99,20 +100,47 @@ main h2 {
   color: #ffb800;
 }
 
-.example pre {
-  display: inline-block;
-  padding: 20px;
-  text-align: left;
-  background-color: #ffb800;
-  border-radius: 10px;
-  color: black;
+article p {
+  margin-bottom: 10px;
 }
 
-.summary div {
+.example div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.example img {
+  width: 32px;
+  padding: 2px;
+  border: 2px solid black;
+  background-color: #ffb800;
+  border-radius: 50%;
+}
+
+.example a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.example a:hover {
+  text-decoration: underline;
+}
+
+.example a:visited {
+  text-decoration: none;
+  color: #ffb800;
+}
+
+.example h3 {
+  margin-bottom: 10px;
+}
+
+.summary > div {
   margin-left: 30px;
 }
 
-.summary h3,
 .summary li {
   margin-bottom: 5px;
 }
@@ -121,7 +149,7 @@ main h2 {
   margin-left: 20px;
 }
 
-.def-width {
+.def-padd {
   padding-left: 20px;
 }
 
@@ -157,5 +185,3 @@ footer div {
 .rsschool-logo img {
   height: 40px;
 }
-
-
